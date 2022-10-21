@@ -1,0 +1,12 @@
+body {
+    background-color: black;
+    text-align: center;
+}
+
+p {
+    color: white;
+    font-size: 3000%;
+    font-family: 'Segoe UI';
+    text-align: center;
+    font-weight: bold;
+}
