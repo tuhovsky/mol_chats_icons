@@ -1,28 +1,31 @@
 body {
+    /* Black background */
     background-color: black;  
 }
 
+/* Flex-container */
 .container {
     display: flex;
-    width: 100vw;
-    height: 100vh;
+    /* Fullscreen width of the flex-container */
+    width: 98vw;
+    /* Fullscreen height of the flex-container */
+    height: 98vh;
+    /* Horizontal centering flex-items inside of the flex-container */
+    justify-content: center;
+    /* Vertical centering flex-items inside of the flex-container */
+    align-items: center;
 }
 
+/* Flex-item */
 .content {
-    margin: auto;
-    text-align: center;
-}
-
-p {
+    /* Color of the content */
     color: white;
-    font-size: 4vw;
+    /* Font of the content */
     font-family: 'Segoe UI';
+    /* Weight of the content */
     font-weight: bold;
-}
-
-/* i {
-    color: white;
-    font-size: 300px;
+    /* Size of the content */
+    font-size: 4vw;
+    /* Centering the content inside of the flex-item */
     text-align: center;
-    padding: 300px 750px;
-} */
+}
