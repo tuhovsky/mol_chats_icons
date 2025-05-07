@@ -25,7 +25,7 @@ body {
     /* Weight of the content */
     font-weight: bold;
     /* Size of the content */
-    font-size: 3vw;
+    font-size: 20vw;
     /* Centering the content inside of the flex-item */
     text-align: center;
 }
